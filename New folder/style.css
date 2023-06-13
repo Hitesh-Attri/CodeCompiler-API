@@ -21,6 +21,7 @@
 
     box-sizing: border-box;
     box-shadow: 0rem 0rem 0.7rem 0.3rem rgb(53, 214, 200);
+    cursor: pointer;
 }
 
 #compile-btn:hover{
