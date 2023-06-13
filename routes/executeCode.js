@@ -19,7 +19,7 @@ router.get("/",(req, res) =>{
     }
 });
 router.post("/",async (req, res)=> {
-    console.log(req.body, typeof req.body);
+    // console.log(req.body, typeof req.body);
 
     // let obj = JSON.parse(req.body);
     // code = JSON.parse(code);
@@ -61,7 +61,7 @@ router.post("/",async (req, res)=> {
         
         try {
             const response = await axios.request(options);
-            console.log(response.data);
+            // console.log(response.data);
         } catch (error) {
             console.error(error);
         }
@@ -86,7 +86,7 @@ router.post("/",async (req, res)=> {
         
         try {
             const response = await axios.request(options);
-            console.log(response.data);
+            // console.log(response.data);
         } catch (error) {
             console.error(error);
         }
@@ -110,7 +110,7 @@ router.post("/",async (req, res)=> {
         
         try {
             const response = await axios.request(options);
-            console.log(response.data);
+            // console.log(response.data);
         } catch (error) {
             console.error(error);
         }
@@ -131,7 +131,7 @@ router.post("/",async (req, res)=> {
       
       try {
           const response = await axios.request(options);
-          console.log(response.data);
+          // console.log(response.data);
         //   res.json({msg:"testing execute code in try block"});
         let err;
         if(!response.data.cpuTime){

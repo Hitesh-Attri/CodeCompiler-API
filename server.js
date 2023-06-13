@@ -37,6 +37,7 @@ app.get('*',(req,res)=>{
 
 app.listen(port,(error)=>{
     // if(!error) console.log("main--> Server running at port,", port);
-    if(!error) console.log(`App listening at http://localhost:${port}`)
+    // if(!error) console.log(`App listening at http://localhost:${port}`)
+    if(!error) console.log(`App listening at port ${port}`)
     else console.log("Error! ", error);
 })
