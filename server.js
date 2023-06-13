@@ -25,7 +25,7 @@ app.route('/').get((req,res)=>{
     // if(!req.session.login) res.render('login', {loggedOut: 0, msg:"",phrase: ""});
     // else res.render("discussion",{username: req.session.name})
 
-    res.sendFile(dir+"/public/html/compiler.html");
+    res.sendFile(__dirname+"/public/html/compiler.html");
 })
 
 // app.use("/compiler", compilerRoute);
